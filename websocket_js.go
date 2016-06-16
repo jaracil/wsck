@@ -5,7 +5,7 @@ package websocket
 import (
 	"net"
 
-	"github.com/gopherjs/websocket"
+	"github.com/jaracil/websocket"
 )
 
 func Dial(url, _ string) (net.Conn, error) {
